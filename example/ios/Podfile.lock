@@ -1,0 +1,35 @@
+PODS:
+  - Flutter (1.0.0)
+  - h3_flutter (0.7.0):
+    - Flutter
+    - FlutterMacOS
+  - integration_test (0.0.1):
+    - Flutter
+  - location_accuracy_plugin (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - h3_flutter (from `.symlinks/plugins/h3_flutter/darwin`)
+  - integration_test (from `.symlinks/plugins/integration_test/ios`)
+  - location_accuracy_plugin (from `.symlinks/plugins/location_accuracy_plugin/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  h3_flutter:
+    :path: ".symlinks/plugins/h3_flutter/darwin"
+  integration_test:
+    :path: ".symlinks/plugins/integration_test/ios"
+  location_accuracy_plugin:
+    :path: ".symlinks/plugins/location_accuracy_plugin/ios"
+
+SPEC CHECKSUMS:
+  Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
+  h3_flutter: e4e6beceb92c6857d9b566d74cc1db3cbba182c4
+  integration_test: 252f60fa39af5e17c3aa9899d35d908a0721b573
+  location_accuracy_plugin: 357b80aadf1de108a04f3adce70d0f6b754fff0d
+
+PODFILE CHECKSUM: 251cb053df7158f337c0712f2ab29f4e0fa474ce
+
+COCOAPODS: 1.16.2
