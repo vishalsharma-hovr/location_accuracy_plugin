@@ -2,7 +2,7 @@ name: location_accuracy_plugin_example
 description: "Demonstrates how to use the location_accuracy_plugin plugin."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
 
 environment:
   sdk: ^3.8.1
@@ -17,8 +17,8 @@ dependencies:
   flutter:
     sdk: flutter
   h3_flutter: ^0.7.0
-  
-  
+  http:
+
   location_accuracy_plugin:
     # When depending on this package from a real application you should use:
     #   location_accuracy_plugin: ^x.y.z
@@ -49,7 +49,6 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
-
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
